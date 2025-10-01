@@ -15,8 +15,9 @@ const CONTRACT_ABI = [
 ];
 
 前端工程自定义：
-运行nmp i 
-npm run dev 即可运行
+nmp i 
+npm run dev 
+即可运行
 
 前端工程能正常连接钱包，调用合约还有初始化FHE有一些小问题，开发者可自行解决。
 
