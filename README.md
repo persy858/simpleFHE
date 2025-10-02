@@ -1,4 +1,5 @@
-<img width="1876" height="715" alt="image" src="https://github.com/user-attachments/assets/c5b92d02-d510-4383-a639-f820b471c08d" />
+<img width="1616" height="1080" alt="image" src="https://github.com/user-attachments/assets/953cb9e9-6479-467a-b223-c2dfbb261538" />
+
 一个简单的FHE 使用示例， 你可以尝试加密投票并且解密总票数，非常清晰简单，易于学习和快速部署。
 
 fhevm-hardhat-template
