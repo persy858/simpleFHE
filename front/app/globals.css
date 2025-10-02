@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.zama-bg {
+  background-color: #12b435;
+}
