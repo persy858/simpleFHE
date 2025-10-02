@@ -2,6 +2,8 @@
 
 一个简单的FHE 使用示例， 你可以尝试加密投票并且解密总票数，非常清晰简单，易于学习和快速部署。
 
+你可以在这里尝试：https://front-hgme7q4oe-kaiandchang-1007s-projects.vercel.app/
+
 fhevm-hardhat-template
 
 后端工程来自官方模板：
@@ -36,6 +38,56 @@ ps：制作过程一些经验：
   从“./fhevm-react”导入{...}
 
   
-
-
 这是一个用于学习的案例。帮助开发者快速理解FHE的加解密流程。
+
+FOR ENGLISH:
+
+A simple FHE usage example: you can try encrypting a vote and decrypting the total count.
+It’s very clear, simple to learn, and easy to deploy quickly.
+
+👉 Try it here:
+https://front-hgme7q4oe-kaiandchang-1007s-projects.vercel.app/
+
+fhevm-hardhat-template
+
+The backend project is based on the official template:
+
+Deployment network: Sepolia
+
+Contract deployed at: 0x00630EDf72e1d0959d350674Ce1C1baD83da6bf0
+
+Frontend project (custom)
+npm install
+npm run dev
+
+
+Then you can run it.
+
+The frontend allows very simple vote encryption and decryption operations.
+
+Notes from the process
+
+Backend contract development and deployment steps:
+Refer to https://docs.zama.ai/protocol/solidity-guides
+
+You can use Hardhat to deploy and test contract calls:
+
+npx hardhat deploy --network sepolia
+npx hardhat --network sepolia task:decrypt-count
+npx hardhat --network sepolia task:increment --value 1
+
+
+For the frontend project, note that @fhevm/react@0.3.0 is not available on npm.
+
+Remove it from your package.json.
+
+Copy the folder packages/fhevm-react into your project hooks, and update the imports in your use*.tsx files.
+
+Replace:
+
+import { FhevmDecryptionSignature, type FhevmInstance, type GenericStringStorage } from "@fhevm/react";
+
+
+with the relative import from your local copy.
+
+✅ This way, you have a minimal backend + frontend setup where you can encrypt votes and decrypt total counts using Zama’s FHE protocol.
