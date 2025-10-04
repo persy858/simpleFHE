@@ -46,7 +46,7 @@ A simple FHE usage example: you can try encrypting a vote and decrypting the tot
 It’s very clear, simple to learn, and easy to deploy quickly.
 
 👉 Try it here:
-https://front-hgme7q4oe-kaiandchang-1007s-projects.vercel.app/
+https://front-qaf1hlwe0-kaiandchang-1007s-projects.vercel.app
 
 fhevm-hardhat-template
 
