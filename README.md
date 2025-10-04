@@ -2,7 +2,7 @@
 
 一个简单的FHE 使用示例， 你可以尝试加密投票并且解密总票数，非常清晰简单，易于学习和快速部署。
 
-你可以在这里尝试：https://front-hgme7q4oe-kaiandchang-1007s-projects.vercel.app/
+你可以在这里尝试：https://front-qaf1hlwe0-kaiandchang-1007s-projects.vercel.app/
 
 fhevm-hardhat-template
 
